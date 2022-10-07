@@ -15,7 +15,7 @@ do
 		useradd -m -p "$pass" "$username"
       		echo "changement du role de : $username"
      		sudo usermod -aG sudo $username
-        	sudo adduser $username ftp_group
+        	sudo adduser $username ftpgroup
         	#echo $username:$password | chpasswd
     	else 
        	 	echo "creation de l'utilisateur : $username"
