@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/jc/
+
 cat Shell_Userlist.csv | while read varligne
 do
 	password=`echo $varligne |cut -d ',' -f4`
